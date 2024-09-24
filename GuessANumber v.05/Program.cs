@@ -18,7 +18,7 @@ while (playAgain == false)
 {
     while (isMatch == false)
     {
-        wrongTries = 7;
+        //wrongTries = 7;
         Console.WriteLine();
         Console.WriteLine($"Choose any number between 1 - 100: ");
         int playerNumber = int.Parse(Console.ReadLine());
