@@ -1,10 +1,12 @@
 # GuessTheNumberGameProject
-My first project: Guess The Number Game. This is a simple console-based number guessing game where the player has to guess a randomly generated number within a predefined range and limited number of tries. The game features two levels, each with increasing difficulty:
+My first project: Guess The Number Game. 
 
-How It Works: Level 1: The player has 7 attempts to guess a number between 1 and 100. After each incorrect guess, the program gives hints whether the guess is too high or too low.
+This is a console-based number-guessing game where the player attempts to guess a randomly generated number within a specified range. The game starts with Level 1, where the player guesses a number between 1 and 100, with 7 attempts. If the player guesses correctly, they can choose to play again or proceed to Level 2. In Level 2, the player must guess a number between 1 and 200, with only 5 attempts. After each game, the player has the option to restart the game from Level 1 or continue playing at Level 2.
 
-Level 2: If the player successfully completes level 1 or wants to start directly from level 2, the game becomes more challenging: The player has to guess a number between 1 and 200.Only 5 attempts are available.
+Key features:
 
-Game Over: After using all attempts in either level, the player is given the option to start a new game or exit.
+Multiple Levels: The game features two difficulty levels with different ranges and attempts.
 
-Play Again: Upon winning or losing, the player can choose to restart the game or proceed to the next level.
+Retry Option: After each game, the player can choose to replay or exit.
+
+Input Validation: The game ensures the player enters valid numbers within the range.
